@@ -91,7 +91,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * 设置死亡代理，当与服务端断开链接时（客户端与服务端还存活，则会走此方法），可以设置重新连接
+     * 设置死亡代理，当与服务端断开链接时（客户端与服务端还存活，则会走此方法），可以设置重新连接·1
+     *
+     *
      */
     private IBinder.DeathRecipient mDeathRecipient = new IBinder.DeathRecipient() {
         @Override
